@@ -12,7 +12,7 @@ def auto_email():
         f"""Dear {user},
         Welcome to Python!"""
     )
-    message["Subject"] = "It worked ?"
+    message["Subject"] = "Enter subject here"
     message["From"] = login
     message["To"] = email
     s = smtplib.SMTP("smtp.office365.com", 587)
